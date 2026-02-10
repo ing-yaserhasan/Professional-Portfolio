@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://yaserhasan.com/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Alternate language versions -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://yaserhasan.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://yaserhasan.com/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://yaserhasan.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://yaserhasan.com/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yaserhasan.com/" />
+  </url>
+  
+  <!-- Portfolio Page -->
+  <url>
+    <loc>https://yaserhasan.com/?page=portfolio</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    
+    <!-- Alternate language versions -->
+    <xhtml:link rel="alternate" hreflang="en" href="https://yaserhasan.com/?page=portfolio&amp;lang=en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://yaserhasan.com/?page=portfolio&amp;lang=de" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://yaserhasan.com/?page=portfolio&amp;lang=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://yaserhasan.com/?page=portfolio&amp;lang=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://yaserhasan.com/?page=portfolio" />
+  </url>
+  
+</urlset>

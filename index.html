@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Yaser Hasan - Digital Solutions Architect | Portfolio</title>
+    <meta name="title" content="Yaser Hasan - Digital Solutions Architect | Portfolio" />
+    <meta name="description" content="Professional portfolio of Yaser Hasan - Digital Solutions Architect with 10+ years of experience in web development, AI, e-commerce, and digital marketing. Specialized in WordPress, WooCommerce, Google AI Studio, AdMob, and more." />
+    <meta name="keywords" content="Yaser Hasan, Web Developer, Digital Solutions Architect, WordPress, WooCommerce, Google AI Studio, AdMob, AdSense, Digital Marketing, React, TypeScript, Vienna Austria" />
+    <meta name="author" content="Yaser Hasan" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yaserhasan.com/" />
+    <meta property="og:title" content="Yaser Hasan - Digital Solutions Architect" />
+    <meta property="og:description" content="10+ years of experience building profitable digital platforms. From landing pages to AI-powered apps on Google Play." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:site_name" content="Yaser Hasan Portfolio" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yaserhasan.com/" />
+    <meta property="twitter:title" content="Yaser Hasan - Digital Solutions Architect" />
+    <meta property="twitter:description" content="10+ years of experience building profitable digital platforms." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#3b82f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1e293b" media="(prefers-color-scheme: dark)" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'media',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              cairo: ['Cairo', 'sans-serif'],
+              tajawal: ['Tajawal', 'sans-serif'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          },
+        },
+      }
+    </script>
+    
+    <!-- Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+      
+      /* Arabic Font System */
+      html[lang="ar"] body {
+        font-family: 'Cairo', sans-serif;
+      }
+      html[lang="ar"] nav, 
+      html[lang="ar"] footer,
+      html[lang="ar"] .font-tajawal-ar {
+        font-family: 'Tajawal', sans-serif;
+      }
+      html[lang="ar"] h1, 
+      html[lang="ar"] h2, 
+      html[lang="ar"] h3 {
+        font-family: 'Cairo', sans-serif;
+      }
+      html[lang="ar"] section:not(#about) h2,
+      html[lang="ar"] section:not(#about) h3 {
+        font-family: 'Tajawal', sans-serif;
+      }
+
+      /* Custom Animations */
+      @keyframes pulse-glow {
+        0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
+        50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.6); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes gradient-shift {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      
+      .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
+      .animate-float { animation: float 3s ease-in-out infinite; }
+      .gradient-text-animated {
+        background: linear-gradient(90deg, #3b82f6, #14b8a6, #3b82f6);
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: gradient-shift 3s linear infinite;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar { width: 10px; }
+      ::-webkit-scrollbar-track { background: #f1f5f9; }
+      .dark ::-webkit-scrollbar-track { background: #0f172a; }
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #3b82f6, #14b8a6);
+        border-radius: 6px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #2563eb, #0d9488);
+      }
+      
+      /* Smooth Scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      /* Accessibility - Reduced Motion */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+        html {
+          scroll-behavior: auto;
+        }
+      }
+    </style>
+    
+    <!-- Import Map for ES Modules -->
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4"
+      }
+    }
+    </script>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Yaser Hasan",
+      "jobTitle": "Digital Solutions Architect",
+      "description": "Professional with 10+ years of experience in web development, AI, e-commerce, and digital marketing",
+      "url": "https://yaserhasan.com",
+      "email": "ing.yaserhasan@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Vienna",
+        "addressCountry": "Austria"
+      },
+      "knowsAbout": [
+        "Web Development",
+        "WordPress",
+        "WooCommerce",
+        "Google AI Studio",
+        "Digital Marketing",
+        "AdMob",
+        "AdSense",
+        "React",
+        "TypeScript",
+        "E-commerce"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Higher Diploma in Computer Science"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
