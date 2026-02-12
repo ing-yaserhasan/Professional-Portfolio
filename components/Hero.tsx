@@ -38,10 +38,10 @@ export const Hero: React.FC<HeroProps> = ({ content }) => {
               <Mail className="w-5 h-5 ltr:mr-2 rtl:ml-2 group-hover:scale-110 transition-transform" />
               {content.hero.contactMe}
             </a>
-            <button className="flex items-center px-8 py-4 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 text-slate-700 dark:text-white rounded-xl hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors font-semibold text-lg shadow-sm rtl:font-cairo">
+            <a href="/cv.pdf" download="Yaser_Hasan_CV.pdf" className="flex items-center px-8 py-4 bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700 text-slate-700 dark:text-white rounded-xl hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors font-semibold text-lg shadow-sm rtl:font-cairo">
               <Download className="w-5 h-5 ltr:mr-2 rtl:ml-2" />
               {content.hero.downloadCv}
-            </button>
+            </a>
           </div>
         </div>
 
